@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     const values = { ...this.get() };
     delete values.password;
     return values;
-  }
+  };
 
   return Account;
 }
