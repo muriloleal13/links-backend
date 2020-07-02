@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
     jwtVersion: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      default: 0,
+      defaultValue: 0,
     },
   });
 
